@@ -1,0 +1,45 @@
+@media only screen and (max-width: 375px) {
+  .card {
+    width: 100%;
+    min-width: 315px;
+    overflow: unset;
+    margin: 30px;
+  }
+  .split {
+    flex-flow: column wrap;
+  }
+  .card-content {
+    flex-flow: column wrap;
+    text-align: center;
+    width: 100%;
+    height: unset;
+    order: 2;
+    padding: 10px;
+    align-items: unset;
+  }
+  .card-img {
+    height: 230px;
+    width: 100%;
+    order: 1;
+  }
+  .heading {
+    font-size: 1.7rem;
+    padding: 30px 0;
+    padding: 20px;
+  }
+  .card-content p {
+    margin-top: unset;
+    color: var(--s-white);
+    line-height: 1.7rem;
+  }
+  .stats {
+    flex-flow: column;
+    align-self: unset;
+    width: 100%;
+    padding-right: unset;
+  }
+  .stats p {
+    line-height: unset;
+    padding: 25px 0;
+  }
+}

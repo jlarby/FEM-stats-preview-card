@@ -1,0 +1,134 @@
+/* ===========
+    
+    Frontend Mentor challenge by Jacob Larby.
+    23 days into studying HTML and CSS.
+    I love to code
+
+============ */
+
+/* ===========
+    Root Styling
+============ */
+:root {
+  /* Backgrounds */
+  --primary-bg: hsl(233, 47%, 7%); /* Very dark blue */
+  --card-bg: hsl(244, 38%, 16%);
+  --accent: hsl(277, 64%, 61%);
+  /* Text Colors */
+  --white: hsl(0, 0%, 100%);
+  --sf-white: hsla(0, 0%, 100%, 0.75);
+  --s-white: hsla(0, 0%, 100%, 0.6);
+}
+/* ===========
+    Resets
+============ */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* ===========
+    Fonts
+============ */
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"); */
+
+/* ===========
+    Body Styling
+============ */
+html,
+body {
+  font-size: 15px;
+  color: var(--white);
+  background: hsl(233, 47%, 7%);
+  font-family: "Inter", sans-serif;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+/* ===========
+    Utilities
+============ */
+.accent {
+  color: var(--accent);
+}
+/* ===========
+    Card
+============ */
+.card {
+  width: 1100px;
+  min-width: 1000px;
+  background: var(--card-bg);
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 50px;
+}
+/* ===========
+    Split
+============ */
+.split {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+/* ===========
+    Card Content
+============ */
+.card-content {
+  width: 50%;
+  height: 400px;
+  padding: 80px 80px 40px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+.card-content p {
+  margin-top: -30px;
+  color: var(--s-white);
+  line-height: 1.7rem;
+}
+.stats {
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 30px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.stats p {
+  text-transform: uppercase;
+  color: var(--sf-white);
+  line-height: 2rem;
+}
+.stat-head {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--white);
+}
+.card-img {
+  width: 50%;
+  height: 400px;
+  background: var(--accent) url("../images/image-header-desktop.jpg") center
+    center/cover;
+  background-blend-mode: multiply;
+}
+/* ===========
+    attribution
+============ */
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 5px;
+}
+.attribution a {
+  color: var(--white);
+}
