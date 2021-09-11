@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: []()
-- Live Site URL: []()
+- Live Site URL: [![Netlify Status](https://api.netlify.com/api/v1/badges/f899ce69-be20-4bc5-9e1b-0ab5823b3b0d/deploy-status)](https://app.netlify.com/sites/goofy-bell-ae0679/deploys)
 
 ## My process
 
